@@ -1,0 +1,14 @@
+[package]
+name = "multithreadluaexec"
+version = "0.1.0"
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+rlua = "0.17.0"
+tokio = {version = "1.10.0", features =["full"] }
+futures = "0.3.16"
+serde = { version = "1.0", features = ["derive"]}
+serde_json = "1.0.59"
+rand = "0.8.4"

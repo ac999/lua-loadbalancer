@@ -1,2 +1,2 @@
-# round_robin_loadbalancer
-Round Robin Loadbalancer for executing Lua code
+# lua-loadbalancer
+Loadbalancer for executing Lua code
